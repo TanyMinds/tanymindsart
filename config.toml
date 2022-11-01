@@ -1,0 +1,139 @@
+baseURL       = "https://21centurykids.com/"
+languageCode  = "en-us"
+title         = "21CenturyKids"
+theme         = "roxo"
+summarylength = 25
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /ro/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.en]
+title = "21CenturyKids"
+weight = 1
+languageName = "English"
+
+  # [[Languages.en.menu.main]]
+  #   url     = "/"
+  #   name    = "Home"
+  #   weight  = 1
+    
+  [[Languages.en.menu.main]]
+    url     = "/blog"
+    name    = "Blog"
+    weight  = 4
+  [[Languages.en.menu.main]]
+    url     = "/about"
+    name    = "About"
+    weight  = 5
+  [[Languages.en.menu.main]]
+    url     = "search/"
+    name    = "Search"
+    weight  = 6
+
+  # Banner Section
+    [Languages.en.params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "21st Century Kids are amazing, let's learn about them"
+    tagline               = "With care for the future of our children..."
+    primary_button        = "Blog"
+    primary_button_url    = "/en/blog"
+    secondary_button      = "Basics"
+    secondary_button_url  = "portfolio"
+
+    
+    
+[Languages.ro]
+title = "21 Century Kids"
+weight = 2
+languageName = "Română"
+
+  # [[Languages.ro.menu.main]]
+  #   url     = "/ro"
+  #   name    = "Acasă"
+  #   weight  = 1
+    
+  [[Languages.ro.menu.main]]
+    url     = "/ro/blog"
+    name    = "Blog"
+    weight  = 4  
+  [[Languages.ro.menu.main]]
+    url     = "/ro/about"
+    name    = "Despre"
+    weight  = 5
+  [[Languages.ro.menu.main]]
+    url     = "search/"
+    name    = "Căutare"
+    weight  = 6
+  # Banner Section
+    [Languages.ro.params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Copiii secolului 21 sunt minunați, să învățăm mai multe despre ei"
+    tagline               = "Cu grijă pentru viitorul copiilor noștri..."
+    primary_button        = "Blog"
+    primary_button_url    = "/ro/blog"
+    secondary_button      = "Fundamente"
+    secondary_button_url  = "portfolio"
+
+    
+    
+  
+# # Site Menus
+# [menu]
+#   # Navbar Menus
+#   [[menu.nav]]
+#     name    = "Home"
+#     url     = ""
+#     weight  = 1
+#   [[menu.nav]]
+#     name    = "Despre"
+#     url     = "about"
+#     weight  = 2
+#     [[menu.nav]]
+#     name    = "FAQ"
+#     url     = "portfolio"
+#     weight  = 3
+#   [[menu.nav]]
+#     name    = "Blog"
+#     url     = "blog"
+#     weight  = 4
+#   [[menu.nav]]
+#     name    = "Contacte"
+#     url     = "contact"
+#     weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  logoSize = 100
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "21CenturyKids"
+  author = "21CenturyKids"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  #formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  
+
+  [params.footer]
+    
+      # Footer Service
+      [params.footer.service]
+        title       = "Contact info"
+        description = "contact21centurykids.com"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]

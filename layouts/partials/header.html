@@ -1,0 +1,83 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://toert.github.io/Isolated-Bootstrap/versions/4.0.0-beta/iso_bootstrap4.0.0min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<link href="/my_style.css" rel= "stylesheet">
+
+<nav class="navbar navbar-expand-lg site-navigation">
+  <div class="container">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="{{ "images/logo.png" | absURL }}" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#sitenavbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse .header_container" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav ">
+        <li>
+          <div class="bootstrap form-group">
+          <select class= " form-control " id= "selectLanguage" style="color: #F18F01; font-weight: 600; font-family: montserrat; "
+          onchange="location = this.value;" >
+            {{$siteLanguages := .Site.Languages}}
+            {{$pageLang := .Page.Lang}}
+            {{range .Page.AllTranslations}}
+              {{$translation := .}}
+              {{range $siteLanguages}}
+                {{if eq $translation.Lang .Lang}}
+                  {{$selected := false}}
+                  {{if eq $pageLang .Lang}}
+                  <option id="{{ $translation.Language}}"
+                  value="{{ $translation.Permalink }}" class=""
+                  selected>{{ .LanguageName}} </option>
+                  {{else}}
+                  <option id="{{$translation.Language}}" value="{{$translation.Permalink}}" class=""
+                   >{{.LanguageName}}</option>
+                  {{end}}
+                {{end}}
+              {{end}} 
+            {{end}}     
+            
+          </select>
+        </div>
+        </li>
+        {{ $menu := .Site.Menus.main }}
+        {{$len := (len $menu)}} 
+        {{ range $index, $element := $menu }} 
+          {{ if eq (add $index 1) $len }}
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-sm btn-primary btn-sm-rounded"
+              href="{{ .URL | relLangURL }}"
+            >
+              <span class="btn-area">
+                <span data-text="{{ .Name }}">
+                  {{ .Name }}
+                </span>
+              </span>
+            </a>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | relLangURL }}"
+              >{{ .Name }}</a
+            >
+          </li>
+          {{ end }} 
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL | relLangURL }}"> {{ .Name }} </a>
+          </li>  
+        {{ end }}   -->

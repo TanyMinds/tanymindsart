@@ -1,0 +1,108 @@
+{{ define "main" }}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://toert.github.io/Isolated-Bootstrap/versions/4.0.0-beta/iso_bootstrap4.0.0min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<script>
+    function bucatel(element) { return `
+        <div class="col-lg-6">
+        <article class="site-blog-post">
+          
+          <div class="site-blog-post-thumb">
+            <img src="/${element["image"]}" alt="post-thumb">
+          </div>
+          
+          <div class="site-blog-post-content">
+            <span></span>
+            <h3><a href="${element["uri"]}">${element["title"]}</a></h3>
+            <p>
+              ${element["content"].slice(0, 300)} ...
+            </p>
+            <a href="${element["uri"]}" class="read-more">read more</a>
+          </div>
+        </article>
+        </div>
+        `;
+    }
+
+    function make_searchable(the_string) {
+        let s = the_string.normalize('NFKD').replace(/[^\w\s.-_\/]/g, '')
+        return s.toUpperCase();
+    }
+
+    function search() {
+        let xmlHttp = new XMLHttpRequest();
+        xmlHttp.open('GET', '/en/index.json', true);
+        xmlHttp.responseType = 'json';
+        xmlHttp.onload = function() {
+            var stat = xmlHttp.status;
+
+            let r = xmlHttp.response;
+
+            let search_box = document.getElementById("search_bar");
+            let query = search_box.value;
+            let query_searchable = make_searchable(query);
+            let result = r.filter(function(entry) {
+                return entry["content"] &&
+                    make_searchable(entry["content"]).indexOf(query_searchable) !== -1;
+            });
+
+            let content = "";
+            result.forEach(element => {
+                content += bucatel(element);
+            });
+            console.log(query);
+            let paragraph = document.getElementById("results");
+
+            let res = document.getElementById("no_results");
+            if (result.length !== 0) {
+                paragraph.innerHTML = content;
+                res.innerHTML = `Search results for ”${query}”`;
+            } else {
+                paragraph.innerHTML = "";
+                res.innerHTML = `No results for ”${query}”`;
+            }
+        }
+        xmlHttp.send();
+    }
+
+    function handle_key_press(event) {
+        let key = event.keyCode || event.which;
+        if (key == 13) search();
+    }
+</script>
+
+<div class="bootstrap">
+<section class="site-blog-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h3>Search Results</h3>
+        </div>
+      </div>
+    </div>
+</section>
+
+<center>
+    <div class="input-group rounded" style="width: 50%;">
+        <input type="search" onkeypress="handle_key_press(event)" class="form-control rounded" placeholder="Search" aria-label="Search"
+        aria-describedby="search-addon" id="search_bar" />
+        <button onclick="search()" class="btn btn-dark"><i class="fas fa-search"></i></button>
+        </span>
+    </div>
+</center>
+
+<div class="d-flex justify-content-center">
+    <p id="no_results"></p>
+</div>
+
+<section class="site-blog">
+    <div class="container">
+        <div class="row" id="results">
+        </div>
+    </div>
+</section>
+</div>
+
+{{ end }}
