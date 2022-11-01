@@ -1,4 +1,4 @@
-baseURL       = "http://21centurykids.com/"
+baseURL       = "https://21centurykids.com/"
 languageCode  = "en-us"
 title         = "21CenturyKids"
 theme         = "roxo"
