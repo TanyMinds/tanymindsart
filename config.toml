@@ -14,10 +14,10 @@ title = "21CenturyKids"
 weight = 1
 languageName = "English"
 
-  # [[Languages.en.menu.main]]
-  #   url     = "/"
-  #   name    = "Home"
-  #   weight  = 1
+  [[Languages.en.menu.main]]
+     url     = "/portfolio"
+     name    = "Books for Kids"
+     weight  = 1
     
   [[Languages.en.menu.main]]
     url     = "/blog"
@@ -42,6 +42,11 @@ languageName = "English"
     primary_button_url    = "/en/blog"
     secondary_button      = "Basics"
     secondary_button_url  = "portfolio"
+  [params.portfolio]
+    enable    = true
+    title     = "Books for Kids"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
 
     
     
@@ -50,10 +55,10 @@ title = "21 Century Kids"
 weight = 2
 languageName = "Română"
 
-  # [[Languages.ro.menu.main]]
-  #   url     = "/ro"
-  #   name    = "Acasă"
-  #   weight  = 1
+  [[Languages.ro.menu.main]]
+    url     = "/ro/portfolio"
+    name    = "Carti pentru Copii"
+    weight  = 1
     
   [[Languages.ro.menu.main]]
     url     = "/ro/blog"
@@ -108,7 +113,7 @@ languageName = "Română"
 # Site Params
 [params]
   logo = "images/logo.png"
-  logoSize = 100
+  logoSize = 500
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "21CenturyKids"

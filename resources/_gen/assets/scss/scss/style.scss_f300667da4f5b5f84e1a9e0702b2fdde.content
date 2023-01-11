@@ -234,7 +234,7 @@ textarea.form-control {
   @media (max-width: 575px) {
     .site-hero {
       padding: 150px 0; } }
-  .site-hero-content h1 {
+  .site-hero-content h2 {
     margin-bottom: 75px; }
     @media (max-width: 1200px) {
       .site-hero-content h1 {
