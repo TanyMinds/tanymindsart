@@ -44,7 +44,7 @@ languageName = "English"
     secondary_button_url  = "portfolio"
   [params.portfolio]
     enable    = true
-    title     = "Books for Kids"
+    title     = "Books for Kids:"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
 

@@ -42,8 +42,8 @@
     }
   }
   &-scroll{
-    position: absolute;
-    left: 50%; bottom: 70px;
+    //position: absolute;
+    left: 50%; bottom: 10px;
     transform: translateX(-50%);
   }
 }
