@@ -42,10 +42,18 @@ languageName = "English"
     primary_button_url    = "/en/blog"
     secondary_button      = "Basics"
     secondary_button_url  = "portfolio"
-  [params.portfolio]
+  [Languages.en.params.portfolio]
     enable    = true
     title     = "Books for Kids:"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+  [Languages.en.params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Contact us"
+    primary_button_url  = "/en/contact"
+    secondary_button    = "View projects"
+    secondary_button_url = "/en/portfolio"
 
 
     
@@ -82,6 +90,10 @@ languageName = "Română"
     primary_button_url    = "/ro/blog"
     secondary_button      = "Fundamente"
     secondary_button_url  = "portfolio"
+  [Languages.ro.params.portfolio]
+    enable    = true
+    title     = "Carti pentru copii:"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
     
     

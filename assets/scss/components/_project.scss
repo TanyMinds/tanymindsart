@@ -182,15 +182,22 @@
       font-size: 40px;
       font-weight: 500;
       margin-bottom: 40px;
+      @include mobile {
+        font-size: 30px;  
+      }
     }
     &-image{
       display: flex;
       flex-wrap: wrap;
       margin-bottom: 30px;
+      
       img{
-        width: 48%;
+        width: 49%;
+        margin-top: 1em;
         &:nth-child(2n){
           margin-left: auto;
+          
+          
         }
         @include tablet{
           width: 100%;
@@ -254,4 +261,42 @@
       }
     }
   }
+}
+
+.imagine-coperta {
+  max-width: 50%;
+  float: right;
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+  @include mobile{
+    float: none;
+    max-width: 100%;
+    margin-left: 0;
+    
+  }
+}
+
+.btn-amazon {
+  background-color: #ff6600;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 10px;
+  color: antiquewhite;
+  font-size: 1.5em;
+  // border: solid 2px;
+  // border-color: #fe6901;
+  box-shadow: 3px 3px 5px rgb(161, 136, 80);
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+ 
+}
+.btn-amazon:hover {
+  color: white;
+  text-decoration:none;
+  background: darken($color: #ff7400, $amount: 6);
+}
+
+.amazon-button-container {
+  width: 100%;
+  text-align: center;
 }

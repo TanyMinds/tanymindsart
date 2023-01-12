@@ -8,8 +8,14 @@
           <h1>
             {{ .Title }}
           </h1>
+          
           <div class="site-project-single-description">
+            <img class="imagine-coperta" src="{{ .Params.coperta | absURL }}">
+              
             {{ .Content }}
+            <div class="amazon-button-container">
+              <a href="{{ .Params.amazonlink }}" class=" btn-amazon"> Buy on Amazon </a>
+            </div>
           </div>
           <div class="site-project-single-image">
             {{ range .Params.project_images }}
@@ -20,11 +26,11 @@
           <div class="site-project-single-action">
             <a href="{{.NextInSection.Permalink}}">
               <span class="link-area">
-                <span data-text="Next Project">
-                  Next Project
+                <span data-text="Next Book">
+                  Next Book
                 </span>
               </span>
-              <img src="{{ "images/to-top.svg" | absURL }}" alt="next project">
+              <img src="{{ "images/to-top.svg" | absURL }}" alt="next book">
             </a>
           </div>
           {{ end }}
