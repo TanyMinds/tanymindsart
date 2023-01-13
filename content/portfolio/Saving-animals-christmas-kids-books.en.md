@@ -6,7 +6,7 @@ image: "images/projects/Books forkids Saving the Animal Christmas Enchanted Cand
 category: ["Christmas Books for Kids age 2-6"]
 coperta: "images/projects/Books forkids Saving the Animal Christmas Enchanted Candy Cane.jpg"
 amazonlink: "https://a.co/d/2IJ5PH1"
-project_images: ["images/projects/i christmas books for kids saving christmas animals.jpg", "images/projects/i 2 christmas books for kids saving christmas animals.jpg", "images/projects/i 3 christmas books for kids saving christmas animals.jpg", "images/projects/i 4 christmas books for kids saving christmas animals.jpg"]
+project_images: ["images/projects/i christmas books for kids saving christmas animals.jpg", "images/projects/i 2 christmas books for kids saving christmas animals.jpg", "images/projects/i 3 christmas books for kids saving christmas animals.jpg", "images/projects/i 4 christmas books for kids saving christmas animals.jpg" ]
 ---
 
 
