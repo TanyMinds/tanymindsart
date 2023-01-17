@@ -114,7 +114,14 @@ languageName = "Română"
     more      = "VEZI MAI MULTE CARTI"
     amazonbutton = "Cumpara pe Amazon"
 
-
+[Languages.ro.params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "Creștem Împreună"
+    primary_button      = "Merg la Blog"
+    primary_button_url  = "/ro/blog"
+    secondary_button    = "Cărți pentru Copii"
+    secondary_button_url = "/ro/portfolio"
     
     
   
