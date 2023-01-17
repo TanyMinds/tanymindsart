@@ -32,7 +32,7 @@
           <div class="site-project-item-content">
             <span>{{ delimit .Params.category ", " }}</span>
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-            <a href="{{ .Permalink }}" class="read-more">view book</a>
+            <a href="{{ .Permalink }}" class="read-more"> {{ .Site.Params.portfolio.viewbook }}</a>
           </div>
         </div>
       </div>

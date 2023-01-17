@@ -47,12 +47,16 @@ languageName = "English"
     enable    = true
     title     = "Articles:"
     subtitle  = "Seeking to make the complex clear & practical." 
-    more      = "VIEW MORE ARTICLES" 
+    more      = "VIEW MORE ARTICLES"
+    viewarticle = "View Article" 
+    
   [Languages.en.params.portfolio]
     enable    = true
     title     = "Books for Kids:"
     subtitle  = "Crafting experiences and working for sparkling in the children's eyes."
     more      = "VIEW MORE BOOKS"
+    viewbook = "View Book"
+    
 
   
 
@@ -106,13 +110,16 @@ languageName = "Română"
     enable    = true
     title     = "Articole:"
     subtitle  = "Complexul devine clar & practic."
-    more      = "VEZI MAI MULTE ARTICOLE"   
+    more      = "VEZI MAI MULTE ARTICOLE" 
+    viewarticle = "Vezi Articolul"  
+
   [Languages.ro.params.portfolio]
     enable    = true
     title     = "Carti pentru copii:"
     subtitle  = "Cream experiențe și muncim pentru strălucirea din ochii copiilor."
     more      = "VEZI MAI MULTE CARTI"
     amazonbutton = "Cumpara pe Amazon"
+    viewbook = "Vezi Cartea"
 
 [Languages.ro.params.call_to_action]
     enable              = true
@@ -208,7 +215,7 @@ languageName = "Română"
       # Footer Service
       [Languages.en.params.footer.service]
         title       = "We help parents:"
-        description = "to rise children<br>writing parenting advice content<br>and books for children"
+        description = "to rise well balanced good kids<br>writing parenting advice content<br>and books for children"
     
     [Languages.ro.params.footer]
   # Footer Contact Info
@@ -222,10 +229,10 @@ languageName = "Română"
           title   = "Harta Site"
           [[Languages.ro.params.footer.sitemap.link]]
             name = "Despre"
-            url  = "/en/about"
+            url  = "/ro/about"
           [[Languages.ro.params.footer.sitemap.link]]
             name = "Carti pentru Copii"
-            url  = "/en/portfolio"
+            url  = "/ro/portfolio"
           [[Languages.ro.params.footer.sitemap.link]]
             name = "Blog"
             url  = "/ro/blog"
