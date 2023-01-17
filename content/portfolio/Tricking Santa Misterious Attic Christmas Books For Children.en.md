@@ -3,7 +3,7 @@ title: "Tricking Santa | The Mysterious Attic | Tammy & Bobby’s Adventures"
 date: 2020-12-12T20:56:42+06:00
 type: portfolio
 image: "images/projects/Tricking Santa Misterious Attic Christmas Books For Children.jpg"
-category: ["Christmas Books for Kids age 4-12"]
+category: ["Christmas Books", "Children", "Ages 4-12", "Tany Minds"]
 coperta: "images/projects/Tricking Santa Misterious Attic Christmas Books For Children.jpg"
 amazonlink: "https://a.co/d/0S8oDdS"
 project_images: ["images/projects/i Tricking Santa Misterious Attic Christmas Books For Children.jpg", "images/projects/i 2 Tricking Santa Misterious Attic Christmas Books For Children.jpg"]

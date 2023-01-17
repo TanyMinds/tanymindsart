@@ -3,7 +3,6 @@
   overflow: hidden;
   &-item{
     position: relative;
-    margin-left: 10em;
     margin-bottom: 30px;
     transition: all 0.3s ease-in;
     &-thumb{
@@ -15,12 +14,13 @@
       position: absolute;
       background: $gray;
       width: 100%;
-      padding: 20px 50px;
+      padding: 20px 10px;
       bottom: 0;
       transition: all .3s $site-ease;
       @include tablet{
-        padding: 30px;
-        padding-bottom: 75px;
+        padding: 15px;
+        padding-bottom: 70px;
+       
       }
       span{
         font-family: $secondary-font;
@@ -29,8 +29,9 @@
         margin-bottom: 10px;
       }
       h3{
+        font-size: 1.2em;
         @include mobile {
-          font-size: 1.5em;
+          font-size: 1.2em;
         }
         margin-bottom: 0;
         a{
@@ -79,13 +80,13 @@
     font-family: $secondary-font;
     font-size: 18px;
     font-weight: 500;
-    color: $primary-color;
+    color: $dark-rose;
     &::before{
       content: '';
       position: absolute;
       height: 2px;
       width: 100%;
-      background: $primary-color;
+      background: $dark-rose;
       bottom: -2px;
       transition: transform 0.3s $site-ease;
       transform-origin: right;
@@ -104,7 +105,7 @@
     padding: 170px 0 100px;
     background: $gray;
     @include tablet{
-      padding: 120px 0 80px;
+      padding: 120px 0 50px;
     }
     &-content{
       h1{
@@ -113,7 +114,7 @@
           color: $primary-color;
         }
         @include tablet{
-          font-size: 30px;
+          font-size: 25px;
         }
       }
       @include desktop{
@@ -131,7 +132,7 @@
         color: $text-color-dark;
         margin-bottom: 20px;
         @include tablet{
-          font-size: 25px;
+          font-size: 20px;
         }
       
       }
@@ -184,11 +185,11 @@
       }
     }
     h1{
-      font-size: 40px;
+      font-size: 30px;
       font-weight: 500;
       margin-bottom: 40px;
       @include mobile {
-        font-size: 30px;  
+        font-size: 25px;  
       }
     }
     &-image{
@@ -279,11 +280,16 @@
   float: right;
   margin-left: 1.5em;
   margin-bottom: 1.5em;
+  border: solid 1px;
+  // border-color: #ff6600;
+  border-color: rgba(218, 116, 0, 0.555);
+  box-shadow: 2px 2px 3px rgb(161, 136, 80);
   @include mobile{
     float: none;
-    max-width: 100%;
-    margin-left: 0;
-    
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
   }
 }
 
@@ -296,7 +302,7 @@
   // border: solid 2px;
   // border-color: #fe6901;
   box-shadow: 3px 3px 5px rgb(161, 136, 80);
-  width: 30%;
+  width: 35%;
   display: inline-block;
   text-align: center;
   @include mobile {

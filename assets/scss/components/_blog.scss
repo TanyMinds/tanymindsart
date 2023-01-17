@@ -1,6 +1,7 @@
 .site{
   &-blog{
     @extend .site-project;
+    
     @include mobile{
       padding: 70px 0;
     }

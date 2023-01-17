@@ -3,6 +3,7 @@ title: "Bold / Proactive Child or Good Child |Quick advice|"
 date: 2020-07-30T13:45:06+06:00
 image: images/blog/bold-child-proactive-child-good-kid.jpg
 feature_image: images/blog/good-kid-bold-kid.jpg
+category: bold
 author: Tany Minds
 ---
 

@@ -14,13 +14,16 @@
               
             {{ .Content }}
             <div class="amazon-button-container">
-              <a href="{{ .Params.amazonlink }}" class=" btn-amazon"> Buy on Amazon </a>
+              <a href="{{ .Params.amazonlink }}" class=" btn-amazon"> {{ .Site.Params.portfolio.amazonbutton }} </a>
             </div>
           </div>
           <div class="site-project-single-image">
             {{ range .Params.project_images }}
             <img src="{{ . | absURL }}" alt="project image">
             {{ end }}
+          </div>
+          <div class="amazon-button-container">
+            <a href="{{ .Params.amazonlink }}" class=" btn-amazon"> {{ .Site.Params.portfolio.amazonbutton }} </a>
           </div>
           {{ if .NextInSection }}
           <div class="site-project-single-action">
