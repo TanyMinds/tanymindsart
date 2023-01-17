@@ -123,6 +123,7 @@ languageName = "Română"
     secondary_button    = "Cărți pentru Copii"
     secondary_button_url = "/ro/portfolio"
     
+
     
   
 # # Site Menus
@@ -171,49 +172,81 @@ languageName = "Română"
 
   
 
-   [Language.en.params.footer]
+   [Languages.en.params.footer]
     # Footer Contact Info
-    [params.footer.contactInfo]
+    [Languages.en.params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = "France, <br>Nice 06"
+      phone   = ""
+      email   = "info@21centurykids.com"
       # Footer Sitemap
-      [params.footer.sitemap]
+      [Languages.en.params.footer.sitemap]
         title   = "Sitemap"
-        [[params.footer.sitemap.link]]
-          name = "About Company"
-          url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
+        [[Languages.en.params.footer.sitemap.link]]
+          name = "About us"
+          url  = "/en/about"
+        [[Languages.en.params.footer.sitemap.link]]
+          name = "Books for Kids"
+          url  = "/en/portfolio"
+        [[Languages.en.params.footer.sitemap.link]]
           name = "Blog"
-          url  = "blog"
-        [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
+          url  = "/en/blog"
+        
       # Footer Social Media
-      [params.footer.social]
+      [Languages.en.params.footer.social]
         title   = "Social Media"
-        [[params.footer.social.link]]
-          name = "Medium"
+        [[Languages.en.params.footer.social.link]]
+          name = "Youtube"
           url  = "#"
-        [[params.footer.social.link]]
-          name = "Behance"
+        
+        [[Languages.en.params.footer.social.link]]
+          name = "Facebook"
           url  = "#"
-        [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
-        [[params.footer.social.link]]
+        [[Languages.en.params.footer.social.link]]
           name = "Instagram"
-          url  = "#"
+          url  = "https://www.instagram.com/21centurykids_com/"
       # Footer Service
-      [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+      [Languages.en.params.footer.service]
+        title       = "We help parents:"
+        description = "to rise children<br>writing parenting advice content<br>and books for children"
     
-  [Languages.ro.params.footer]
+    [Languages.ro.params.footer]
+  # Footer Contact Info
+      [Languages.ro.params.footer.contactInfo]
+        title   = "Contact Info"
+        address = "France, <br>Nice 06"
+        phone   = ""
+        email   = "info@21centurykids.com"
+         # Footer Sitemap
+        [Languages.ro.params.footer.sitemap]
+          title   = "Harta Site"
+          [[Languages.ro.params.footer.sitemap.link]]
+            name = "Despre"
+            url  = "/en/about"
+          [[Languages.ro.params.footer.sitemap.link]]
+            name = "Carti pentru Copii"
+            url  = "/en/portfolio"
+          [[Languages.ro.params.footer.sitemap.link]]
+            name = "Blog"
+            url  = "/ro/blog"
+  
+    # Footer Social Media
+      [Languages.ro.params.footer.social]
+        title   = "Social Media"
+        [[Languages.ro.params.footer.social.link]]
+          name = "Youtube"
+          url  = "#"
+        
+        [[Languages.ro.params.footer.social.link]]
+          name = "Facebook"
+          url  = "#"
+        [[Languages.ro.params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/21centurykids_com/"
+      # Footer Service
+      [Languages.ro.params.footer.service]
+        title       = "Ajutăm Părinții:"
+        description = "să crească copii echilibrați<br>prin sfaturi practice de parenting<br>și cărți pentru copii"  
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
