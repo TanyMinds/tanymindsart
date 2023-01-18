@@ -212,7 +212,7 @@ languageName = "Română"
           url  = "#"
         [[Languages.en.params.footer.social.link]]
           name = "Instagram"
-          url  = "https://www.instagram.com/21centurykids_com/"
+          url  = "#https://www.instagram.com/21centurykids_com/"
       # Footer Service
       [Languages.en.params.footer.service]
         title       = "We help parents:"
@@ -250,7 +250,7 @@ languageName = "Română"
           url  = "#"
         [[Languages.ro.params.footer.social.link]]
           name = "Instagram"
-          url  = "https://www.instagram.com/21centurykids_com/"
+          url  = "#https://www.instagram.com/21centurykids_com/"
       # Footer Service
       [Languages.ro.params.footer.service]
         title       = "Ajutăm Părinții:"
