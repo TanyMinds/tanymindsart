@@ -9,8 +9,9 @@
       margin: 0;
     }
     li{
-      list-style: none;
+      list-style: disc;
       font-size: 16px;
+      line-height: 23px;
       font-weight: 350;
       color: $text-color-dark;
       &:not(:last-child){
