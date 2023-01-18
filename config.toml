@@ -1,4 +1,4 @@
-baseURL       = "https://21centurykids.com/en/"
+baseURL       = "https://21centurykids.com/"
 languageCode  = "en-us"
 title         = "21CenturyKids"
 theme         = "roxo"
@@ -6,7 +6,7 @@ summarylength = 25
 # English is the default language
 defaultContentLanguage = "en"
 # Force to have /en/my-page and /ro/my-page routes, even for default language.
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir= false
 
 [Languages]
 [Languages.en]
