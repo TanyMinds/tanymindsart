@@ -110,7 +110,7 @@ languageName = "Română"
   [Languages.ro.params.blog]
     enable    = true
     title     = "Articole:"
-    subtitle  = "Complexul devine clar & practic."
+    subtitle  = "Complexitatea devine clară & practică."
     more      = "VEZI MAI MULTE ARTICOLE" 
     viewarticle = "Vezi Articolul"  
 
