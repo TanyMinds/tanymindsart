@@ -15,10 +15,13 @@
   &-company{
     background: $primary-color;
     width: 40%;
-    padding: 70px 38px;
+    padding: 50px 38px;
     @include desktop{
       width: 100%;
       margin-bottom: 20px;
+    }
+    @include mobile {
+      padding: 35px;
     }
     h1{
       color: $white;
