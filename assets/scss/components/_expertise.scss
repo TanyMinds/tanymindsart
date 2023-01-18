@@ -1,5 +1,5 @@
 .site-expertise{
-  padding: 100px 0;
+  padding: 70px 0;
   background: $gray;
   &-list{
     padding: 0;
@@ -10,8 +10,8 @@
     }
     li{
       list-style: none;
-      font-size: 25px;
-      font-weight: 300;
+      font-size: 16px;
+      font-weight: 350;
       color: $text-color-dark;
       &:not(:last-child){
         margin-bottom: 10px;

@@ -1,17 +1,19 @@
+{{ $the_data := (index $.Site.Data .Lang) }}
+{{ $team_data := $the_data.team }}
 
-{{ with .Site.Data.team }}
-  {{ if .enable }}
+
+  {{ if $team_data.enable }}
   <section class="site-team">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="section-title">
             <h2>
-              {{ .title }}
+              {{ $team_data.title }}
             </h2>
           </div>
         </div>
-        {{ range .members }}
+        {{ range $team_data.members }}
         <div class="col-lg-4 col-md-6">
           <div class="site-team-member">
             <div class="site-team-member-image">
@@ -20,11 +22,11 @@
             <div class="site-team-member-content">
               <h3>{{ .name }}</h3>
               <p>{{ .designation }}</p>
-              <!-- <ul class="site-team-member-social">
-                <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="{{ .instagram | absURL }}"><i class="fa fa-instagram"></i></a></li>
+              <ul class="site-team-member-social">
+                <li><a href="{{ .linkedin | absURL }}"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="{{ .instagram | absURL }}"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="{{ .website | absURL }}"><i class="fa fa-globe"></i></a></li>
-              </ul> -->
+              </ul>
             </div>
           </div>
         </div>
@@ -33,4 +35,3 @@
     </div>
   </section>
   {{ end }}
-{{ end }}

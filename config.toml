@@ -55,6 +55,7 @@ languageName = "English"
     title     = "Books for Kids:"
     subtitle  = "Crafting experiences and working for sparkling in the children's eyes."
     more      = "VIEW MORE BOOKS"
+    amazonbutton = "Buy on Amazon"
     viewbook = "View Book"
     
 
