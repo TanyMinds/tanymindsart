@@ -41,7 +41,7 @@
       &-content{
         @extend .site-project-item-content;
         @include mobile{
-          padding: 15px 25px 40px;
+          padding: 10px 15px 22px;
         }
         span{
           font-size: 14px;
