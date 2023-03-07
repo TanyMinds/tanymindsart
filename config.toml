@@ -186,7 +186,7 @@ languageName = "Română"
       title   = "Contact Info"
       address = "France, <br>Nice 06"
       phone   = ""
-      email   = "info@21centurykids.com"
+      email   = "tanyminds@gmail.com"
       # Footer Sitemap
       [Languages.en.params.footer.sitemap]
         title   = "Sitemap"
@@ -224,7 +224,7 @@ languageName = "Română"
         title   = "Contact Info"
         address = "France, <br>Nice 06"
         phone   = ""
-        email   = "info@21centurykids.com"
+        email   = "tanyminds@gmail.com"
          # Footer Sitemap
         [Languages.ro.params.footer.sitemap]
           title   = "Harta Site"
