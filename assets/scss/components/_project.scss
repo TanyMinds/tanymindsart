@@ -9,6 +9,11 @@
       img{
         width: 100%;
       }
+      @include mobile{
+        img{
+          margin-bottom: 150px;
+        }
+      }
     }
     &-content{
       position: absolute;

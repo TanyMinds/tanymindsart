@@ -1,6 +1,6 @@
 baseURL       = "/"
 languageCode  = "en-us"
-title         = "21CenturyKids"
+title         = "TanyMinds"
 theme         = "roxo"
 summarylength = 25
 # English is the default language
@@ -164,8 +164,8 @@ languageName = "Română"
   logoSize = 500
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "21CenturyKids"
-  author = "21CenturyKids"
+  description = "TanyMinds"
+  author = "TanyMinds"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
