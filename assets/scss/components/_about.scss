@@ -13,27 +13,31 @@
     flex-wrap: wrap;
   }
   &-company{
+    margin: center;
     background: $primary-color;
-    width: 40%;
-    padding: 50px 38px;
+    width: 100%;
+    padding: 5px 5px;
     @include desktop{
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
     }
     @include mobile {
       padding: 35px;
     }
     h1{
+      text-align: center;
       color: $white;
-      font-weight: 400;
-      font-size: 25px;
-      line-height: 40px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 30px;
+      text-transform: none;
+      letter-spacing: 0.5px;
     }
   }
   &-description{
-    width: 60%;
+    margin: auto;
+    width: 80%;
+    
     padding-left: 50px;
     @include desktop{
       width: 100%;
@@ -45,5 +49,17 @@
       font-weight: 300;
       margin-bottom: 0;
     }
+    img{
+      float: left;
+      width: 30%;
+      margin-right: 0.7em;
+      margin-top: 0.5em;
+      @include mobile{
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.7em;
+      }
   }
+}
 }

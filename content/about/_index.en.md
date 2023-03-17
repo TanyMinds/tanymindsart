@@ -1,8 +1,16 @@
 +++
 title = "About"
 date = 2018-07-12T18:19:33+06:00
-heading = "Don't forget that you have a unique and wonderful child, be the best example for him ..."
+heading = "i like people who, in order to shine, do not extinguish the light of others"
 description = """\"Fuzing parenting experience with studies in NLP, personal development, child psychology, marketing, business and law. Through the blog I want to highlight the importance of children's education adequate time in which we live. We cannot educate the children of the 21st century with the same tools with which we, the parents, were educated. Many of them require an UPGRADE, as children say. They see the world through completely different filters than we do. I want us to try together to distinguish from the multitude of information only the essential! I will try to explain the complexity of things by simplifying, until we get to the essence.\""""
 expertise_title = "Expertise & interests:"
 expertise_sectors = ["Mother since 2006", " Master in Business Administration","NLP practitioner - American Union of NLP (AUNLP)", " ANC Certified Trainer ", "Child Psychology - continuous learning and practice since 2005", " Balance in life - continuous learning and practice since 2012", "Dissertation topic: There is no Leadership without Comunication | The communication kit of a sustainable leadership", " Degree in law","Communication and Personal Development", "Marketing and Entrepreneurship", " Interdisciplinary Research", "Art | Photography | Writing"]
 +++
+
+![](/images/team/tanyminds1.jpg)
+
+Realitatea spune că în ziua de azi dacă rămâi axat doar pe o singură arie te plafonezi și ești limitat în ce poți face sau gândi. Am interese care la prima vedere nu au ce face împreună pictură, călătorii, antreprenoriat, muzică, marketing, parenting, comunicare. Însă dacă privești harta în ansamblu vezi că toate sunt conectate. Dacă te focusezi doar pe un aspect al vieții ”o dai în bară” sau cel puțin nu ești împlinit.
+
+De exemplu, nu te vei putea bucura de faptul că ești un antreprenor sau specialist bun dacă nu ai o familie fericită, deci trebuie să ştii cum să o faci fericită, şi apare următorul domeniu – educaţia copiilor, după care următorul – relaţia cu soţul/soția. Nu poţi fi fericit dacă nu faci ce îţi place şi asta ar însemna alte interese, hobby-uri care la fel au nevoie de timp. Pentru a fi un antreprenor bun mai e nevoie să înţelegi şi marketing, branding, finanțe, management. Ceea ce presupune alte cunoştinţe şi interese inclusiv comunicarea interpersonală, comunicarea în companie, cultura companiei etc. S-ar părea că pentru toate acestea pot fi angajaţi specialişti, adevărat, dar niciodată nu va fi acelaşi efect ca în cazul în care proprietarul  înţelege ce e de făcut. Nici un specialist nu va convinge cu adevărat un proprietar că este nevoie de schimbare dacă el nu percepe esența. 
+
+Încerc să delimitez până unde este munca şi de unde începe viaţa personală, dar am impresia că în antreprenoriat ca și în multe alte ocupații nu este posibil. Îţi vin idei în timpul liber și te poţi odihni când lucrezi. În același timp suntem educaţi altfel, pe sistemul angajat 

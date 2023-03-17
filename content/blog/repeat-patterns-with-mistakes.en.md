@@ -17,4 +17,4 @@ A painting can only be copied if you make the same mistakes as the first time. T
 It is the same in life, we repeat the teachings of others step by step, but something does not happen. Something is always not as we expected. Of course, we cannot repeat the whole process that others have gone through with their mistakes. But we have the possibility to adapt these patterns to our situation, to go through them, to make our mistakes, to readjust, to add our own steps or to modify them. In this way the picture of our life will vibrate in its own colors, beautiful and special. And most importantly unique! Another picture does not exist, nor does it have any of your own trials, mistakes and improvements.
 
 
-_Photo credit: Photo by Tany Minds Art https:tanymindsart.com_
+_Photo credit: Photo by Tany Minds Art https://tanymindsart.com_
