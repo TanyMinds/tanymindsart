@@ -14,6 +14,6 @@ Living in continuous change is hard. You always have to adapt things, and yourse
 
 ### Anxiety is part of the challenge
 
-Anxiety during this time is paying close attention to details, the more details appear the more space for maneuver have in your head. What if we became friends with her?Or maybe we can even begin to tolerate it, to make it aware, and to allow it to exist. However, she is the one who creates our challenges. Every entrepreneur loves challenges, business is a challenge in itself. Anxiety is part of the challenge, without it we would not have the courage to solve them.When can you still be brave if not when you are afraid? Anxiety can cause us to act, try new things, make changes or crouch in a corner and complain of pity. What we do is just our choice.
+Anxiety during this time is paying close attention to details, the more details appear the more space for maneuver have in your head. What if we became friends with her? Or maybe we can even begin to tolerate it, to make it aware, and to allow it to exist. However, she is the one who creates our challenges. Every entrepreneur loves challenges, business is a challenge in itself. Anxiety is part of the challenge, without it we would not have the courage to solve them. When can you still be brave if not when you are afraid? Anxiety can cause us to act, try new things, make changes or crouch in a corner and complain of pity. What we do is just our choice.
 
 _Photo credit: Photo by Tany Minds Art TanyMindsArt.com_

@@ -1,8 +1,8 @@
 ---
 title: "Where you hit, and where it cracks – What I feel at 37 years old :)"
 date: 2020-01-16
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/it-does-not-crack-where-hit.jpg
+feature_image: images/blog/it-does-not-crack-where-hit-1.jpg
 author: Tany Minds
 ---
 

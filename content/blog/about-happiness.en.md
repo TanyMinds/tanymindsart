@@ -1,8 +1,8 @@
 ---
 title: "Happiness? Don’t look for her because no one lost her…"
 date: 2020-07-02
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/about-happiness.jpg
+feature_image: images/blog/about-happiness-1.jpg
 author: Tany Minds
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Etichete, clișee, statistică - Laptele va da în foc?"
 date: 2019-12-20
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/labels-cliches-statistics.jpg
+feature_image: images/blog/labels-cliches-statistics-1.jpg
 author: Tany Minds
 ---
 

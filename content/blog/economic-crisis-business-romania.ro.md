@@ -1,8 +1,8 @@
 ---
 title: "Criză economică? - Ce se întâmplă cu afacerile din România?"
 date: 2020-04-16
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/economic-crisis-business-romania.jpg
+feature_image: images/blog/economic-crisis-business-romania-1.jpg
 author: Tany Minds
 ---
 

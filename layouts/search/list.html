@@ -33,7 +33,7 @@
 
     function search() {
         let xmlHttp = new XMLHttpRequest();
-        xmlHttp.open('GET', '/en/index.json', true);
+        xmlHttp.open('GET', '/{{ $.Site.Language }}/index.json', true);
         xmlHttp.responseType = 'json';
         xmlHttp.onload = function() {
             var stat = xmlHttp.status;

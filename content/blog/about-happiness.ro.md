@@ -1,8 +1,8 @@
 ---
 title: "Fericirea? Nu o mai căuta că nu a pierdut-o nimeni..."
 date: 2020-07-02
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/about-happiness.jpg
+feature_image: images/blog/about-happiness-1.jpg
 author: Tany Minds
 ---
 

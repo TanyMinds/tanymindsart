@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir= true
 
 [Languages]
 [Languages.en]
-title = "21CenturyKids"
+title = "Tany Minds"
 weight = 1
 languageName = "English"
 
@@ -191,7 +191,7 @@ languageName = "Română"
       [Languages.en.params.footer.sitemap]
         title   = "Sitemap"
         [[Languages.en.params.footer.sitemap.link]]
-          name = "About us"
+          name = "About"
           url  = "/en/about"
         [[Languages.en.params.footer.sitemap.link]]
           name = "Books for Kids"
@@ -215,8 +215,8 @@ languageName = "Română"
           url  = "#https://www.instagram.com/21centurykids_com/"
       # Footer Service
       [Languages.en.params.footer.service]
-        title       = "We help parents:"
-        description = "to rise well balanced good kids<br>writing parenting advice content<br>and books for children"
+        title       = "What is it about here:"
+        description = "Happiness, positive thinking, labels, clichés, mistakes, anxiety, limiting beliefs, communication, balance..."
     
     [Languages.ro.params.footer]
   # Footer Contact Info
@@ -253,8 +253,8 @@ languageName = "Română"
           url  = "#https://www.instagram.com/21centurykids_com/"
       # Footer Service
       [Languages.ro.params.footer.service]
-        title       = "Ajutăm Părinții:"
-        description = "să crească copii echilibrați<br>prin sfaturi practice de parenting<br>și cărți pentru copii"  
+        title       = "Despre ce discutăm pe aici:"
+        description = "Fericire, gândire pozitivă, etichete, clișee, greșeli, anxietate, convingeri limitative, comunicare, echilibru..."  
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

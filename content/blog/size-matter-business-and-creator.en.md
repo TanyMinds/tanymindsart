@@ -1,8 +1,8 @@
 ---
 title: "Does size matter? – Business and creator"
 date: 2019-11-13
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/size-matter-business-and-creator.jpg
+feature_image: images/blog/size-matter-business-and-creator-1.jpg
 author: Tany Minds
 ---
 

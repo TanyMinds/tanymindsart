@@ -1,8 +1,8 @@
 ---
 title: "Criză? - De ce le este oamenilor frica mai mult, de pericolul iminent sau de incertitudinea viitorului?"
 date: 2020-03-14
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/crisis-iminent-uncertainity.jpg
+feature_image: images/blog/crisis-iminent-uncertainity-1.jpg
 author: Tany Minds
 ---
 

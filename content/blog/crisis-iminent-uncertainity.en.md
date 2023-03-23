@@ -1,8 +1,8 @@
 ---
 title: "Crisis? – Why are people more afraid, imminent danger or uncertainty of the future?"
 date: 2020-03-14
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/crisis-iminent-uncertainity.jpg
+feature_image: images/blog/crisis-iminent-uncertainity-1.jpg
 author: Tany Minds
 ---
 

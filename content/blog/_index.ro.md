@@ -1,5 +1,5 @@
 ---
 title       : "Tany Minds"
 date        : 2019-12-23T20:17:01+06:00
-description : "Fuzionând experiența de părinte cu studiile în demeniul NLP, dezvoltare personală, psihologia copilului, marketing, vânzări și business. Prin intermediul blogului vreau să evidențiez importanța educației copiilor adecvate timpului în care trăim. Nu putem educa copiii seculului 21 cu aceleași instrumente cu care am fost educați noi, părinții. Multe din ele necesită un UPGRADE, cum ar zice copiii. Ei văd lumea prin cu totul alte filtre decât noi. Vreau să încercăm împreună să distingem din multitudinea informațiilor doar esențialul! Voi încerca să explic complexitatea lucrurilor simplificând, până ajungem la esență."
+description : "Fericire, gândire pozitivă, etichete, clișee, greșeli, anxietate, convingeri limitative, comunicare și lista continuă. Par multe, dar toate acestea și multe altele fac parte din noi. Majoritatea stau la subconștient. Aici vreau să le scoatem la suprafață, să facem cunoștință cu ele, să le conștientizăm, să înțelegem cum funcționează și cum le putem folosi în beneficiul nostru. Totodată vreau să evidențiez importața echilibrului între toate aspectele vieții și a dezvoltării continue astfel ca pe drum să nu pierdem din vedere visele pentru care muncim, dar să ne și bucurăm de călătoria în sine."
 ---

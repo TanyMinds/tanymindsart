@@ -1,8 +1,8 @@
 ---
 title: "When emotions scream at me – About change"
 date: 2020-02-26
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/about-change-when-emotions-scream-at-me.jpg
+feature_image: images/blog/about-change-when-emotions-scream-at-me-1.jpg
 author: Tany Minds
 ---
 
