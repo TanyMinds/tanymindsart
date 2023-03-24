@@ -36,8 +36,8 @@ languageName = "English"
     [Languages.en.params.banner]
     enable                = true
     background_image      = "images/backgrounds/tanymindscom.jpg"
-    heading               = "from the poem - Woman, March 2023, Tany Minds"
-    tagline               = "...Don't wait for the right moment. There won't be one at any time. The time is always now. And only now does life really exist..."
+    heading               = "Tany Minds, \"Woman\", March 2023"
+    tagline               = "Don't wait for the right moment. There never will be one. The time is always now. And only now does life really exist..."
     primary_button        = "Blog"
     primary_button_url    = "/en/blog"
     secondary_button      = "Basics"
@@ -100,8 +100,8 @@ languageName = "Română"
     [Languages.ro.params.banner]
     enable                = true
     background_image      = "images/backgrounds/tanymindscom.jpg"
-    heading               = "din poezia - Femeie, martie 2023, Tany Minds"
-    tagline               = "...Să nu aștepți momentul potrivit. Nu va exista vreo unul vreo dată. Momentul e mereu acum. Și doar acum există cu adevărat în viață..."
+    heading               = "Tany Minds, \"Femeie\", martie 2023 "
+    tagline               = "Să nu aștepți momentul potrivit. Nu va exista vreo unul vreodată. Momentul e mereu acum. Și doar acum există cu adevărat în viață..."
     primary_button        = "Blog"
     primary_button_url    = "/ro/blog"
     secondary_button      = "Fundamente"
