@@ -1,12 +1,12 @@
 ---
-title: "Criză economică? - Ce se întâmplă cu afacerile din România?"
+title: "Criză economică? - Ce se întâmplă cu afacerile?"
 date: 2020-04-16
 image: images/blog/economic-crisis-business-romania.jpg
 feature_image: images/blog/economic-crisis-business-romania-1.jpg
 author: Tany Minds
 ---
 
-Criză economică? Ce se întâmplă cu afacerile în România după o lună de stare de urgență? La prima vedere e un haos total. Companiile se orientează pe online, unii știu cum se face, alții nu prea. Companiile de cursuri online încep să concureze cu fiecare al doilea specialist care peste noapte a devenit profesor. Parcă e mai mare pandemia de informație care crește exponențial cu fiecare nou curs, decât cea legată de COVID-19. Pare că lumea a început să învețe mai mult, dar mai degrabă a început să-i învețe pe alții mai mult. Încă nu știm dacă în această formulă înseamnă și mai bine.
+Criză economică? Ce se întâmplă cu afacerile după o lună de stare de urgență? La prima vedere e un haos total. Companiile se orientează pe online, unii știu cum se face, alții nu prea. Companiile de cursuri online încep să concureze cu fiecare al doilea specialist care peste noapte a devenit profesor. Parcă e mai mare pandemia de informație care crește exponențial cu fiecare nou curs, decât cea legată de COVID-19. Pare că lumea a început să învețe mai mult, dar mai degrabă a început să-i învețe pe alții mai mult. Încă nu știm dacă în această formulă înseamnă și mai bine.
 
 ### Criza economică?
 

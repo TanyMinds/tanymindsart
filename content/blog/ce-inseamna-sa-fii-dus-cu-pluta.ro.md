@@ -1,8 +1,8 @@
 ---
 title: "Ce înseamnă să fii dus cu pluta..."
 date: 2012-12-02
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/dus-cu-pluta-tany-minds.jpg
+feature_image: images/blog/dus-cu-pluta-tany-minds-1.jpg
 author: Tany Minds
 ---
 

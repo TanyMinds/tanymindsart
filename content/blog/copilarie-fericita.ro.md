@@ -1,8 +1,8 @@
 ---
 title: "Păcat că nu este la fel… Pledoarie pentru o copilărie fericită"
 date: 2020-11-21
-image: images/blog/in-life-as-in-business.jpg
-feature_image: images/blog/in-life-as-in-business-1.jpg
+image: images/blog/copilarie-fericita-tany-minds.jpg
+feature_image: images/blog/copilarie-fericita-tany-minds-1.jpg
 author: Tany Minds
 ---
 

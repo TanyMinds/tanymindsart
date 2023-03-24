@@ -1,12 +1,12 @@
 ---
-title: "Economic crisis? What happens to business in Romania?"
+title: "Economic crisis? What happens to business?"
 date: 2020-04-16
 image: images/blog/economic-crisis-business-romania.jpg
 feature_image: images/blog/economic-crisis-business-romania-1.jpg
 author: Tany Minds
 ---
 
-Economic crisis? What happens to business in Romania after a month of emergency? The first sight is a total chaos. Companies are turning to online, some know how to do, others not so much. Online course companies are starting to compete with every second specialist who became a teacher overnight. It seems that the pandemic of information is growing exponentially with each new course, than that related to COVID-19. It seems that the world has begun to learn more, but rather it has begun to teach others more. We do not know yet if this formula means even better.
+Economic crisis? What happens to business after a month of emergency? The first sight is a total chaos. Companies are turning to online, some know how to do, others not so much. Online course companies are starting to compete with every second specialist who became a teacher overnight. It seems that the pandemic of information is growing exponentially with each new course, than that related to COVID-19. It seems that the world has begun to learn more, but rather it has begun to teach others more. We do not know yet if this formula means even better.
 
 ### Economic crisis?
 
