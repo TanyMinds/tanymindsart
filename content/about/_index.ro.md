@@ -8,7 +8,7 @@ expertise_sectors = ["Mamă din 2006", "Master în Administrarea Afacerilor","NL
 +++
 ![](/images/team/tanyminds.jpg)
 
-Am încercat să scriu despre mine câte ceva ca să mă cunoști mai bine. Mi-a fost greu să scriu, sunt prea multe lucruri și nu știu care vor fi relevante pentru tine. De aceea am hotărât să răspund la o listă de întrebări care am găsit-o recent și a fost destul de provocatoare pentru mine. 
+Am încercat să scriu despre mine câte ceva ca să mă cunoști mai bine. Mi-a fost greu să scriu, sunt prea multe lucruri și nu știu care vor fi relevante pentru tine. De aceea am hotărât să răspund la o listă de întrebări pe care am găsit-o recent și a fost destul de provocatoare pentru mine. 
 
 
 **`• Cine ești? Răspunde într-o Propoziție`**
