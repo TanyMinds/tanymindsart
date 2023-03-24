@@ -3,7 +3,7 @@ title: "Există influencer Marketing în România?"
 date: 2020-11-30
 draft: 
 image: images/blog/influiencer-marketing-romania-tany-minds.jpg
-feature_image: images/blog/influiencer-marketing-romania-tany-minds-1.jpg
+feature_image: images/blog/in fluiencer-marketing-romania-tany-minds-1.jpg
 author: Tany Minds
 ---
 
