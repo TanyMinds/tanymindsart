@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify && echo "tanyminds.com" > public/CNAME
+        run: hugo --minify && echo "tanymindsart.com" > public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

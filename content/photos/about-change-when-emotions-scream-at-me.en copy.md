@@ -1,0 +1,10 @@
+---
+title: "When emotions scream at me – About change"
+date: 2020-02-26
+image: images/photos/5.jpg
+feature_image: images/5.jpg
+author: Tany Minds
+---
+
+When my heart beats more powerfully, I know I live. When the emotions are screaming at me, I am angry at them too, to temper a little. This strategy does not work, which is why I take them with the good. In turn, they start to tell me why they are so upset and why they behave badly with me. They most often occur when I am not fully aware of the situation, or when I am taken by surprise.
+

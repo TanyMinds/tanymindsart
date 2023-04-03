@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="https://toert.github.io/Isolated-Bootstrap/versions/4.0.0-beta/iso_bootstrap4.0.0min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <link href="/my_style.css" rel= "stylesheet">
-
 <nav class="navbar navbar-expand-lg site-navigation">
   <div class="container">
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
@@ -23,6 +22,7 @@
       <ul class="navbar-nav ml-auto main-nav ">
         <li>
           <div class="bootstrap form-group">
+            
           <select class= "btn-area " id= "selectLanguage" style="color: #845A6D; background-color: rgb(255, 255, 255); border-color: #ffffff; border-width: 1em; border-style: hidden; font-size: 1em; font-weight: 500; "
           onchange="location = this.value;" >
             {{$siteLanguages := .Site.Languages}}

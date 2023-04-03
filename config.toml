@@ -1,28 +1,25 @@
 baseURL       = "/"
 languageCode  = "en-us"
-title         = "TanyMinds"
+title         = "TanyMindsArt"
 theme         = "roxo"
 summarylength = 25
 # English is the default language
 defaultContentLanguage = "en"
-# Force to have /en/my-page and /ro/my-page routes, even for default language.
-defaultContentLanguageInSubdir= true
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= false
 
 [Languages]
 [Languages.en]
-title = "Tany Minds"
+title = "Tany Minds Art"
 weight = 1
 languageName = "English"
 
   [[Languages.en.menu.main]]
-     url     = "/portfolio"
-     name    = "Books for Kids"
+     url     = "https://www.etsy.com/shop/TanyMindsArt"
+     name    = "Shop"
      weight  = 1
     
-  [[Languages.en.menu.main]]
-    url     = "/blog"
-    name    = "Blog"
-    weight  = 4
+  
   [[Languages.en.menu.main]]
     url     = "/about"
     name    = "About"
@@ -36,8 +33,8 @@ languageName = "English"
     [Languages.en.params.banner]
     enable                = true
     background_image      = "images/backgrounds/tanymindscom.jpg"
-    heading               = "Tany Minds, \"Woman\", March 2023"
-    tagline               = "Don't wait for the right moment. There never will be one. The time is always now. And only now does life really exist..."
+    heading               = ""
+    tagline               = ""
     primary_button        = "Blog"
     primary_button_url    = "/en/blog"
     secondary_button      = "Basics"
@@ -71,66 +68,6 @@ languageName = "English"
     secondary_button_url = "/en/portfolio"
 
 
-
-    
-    
-[Languages.ro]
-title = "21 Century Kids"
-weight = 2
-languageName = "Română"
-
-  [[Languages.ro.menu.main]]
-    url     = "/ro/portfolio"
-    name    = "Carti pentru Copii"
-    weight  = 1
-    
-  [[Languages.ro.menu.main]]
-    url     = "/ro/blog"
-    name    = "Blog"
-    weight  = 4  
-  [[Languages.ro.menu.main]]
-    url     = "/ro/about"
-    name    = "Despre"
-    weight  = 5
-  [[Languages.ro.menu.main]]
-    url     = "search/"
-    name    = "Căutare"
-    weight  = 6
-  # Banner Section
-    [Languages.ro.params.banner]
-    enable                = true
-    background_image      = "images/backgrounds/tanymindscom.jpg"
-    heading               = "Tany Minds, \"Femeie\", martie 2023 "
-    tagline               = "Să nu aștepți momentul potrivit. Nu va exista vreo unul vreodată. Momentul e mereu acum. Și doar acum există cu adevărat în viață..."
-    primary_button        = "Blog"
-    primary_button_url    = "/ro/blog"
-    secondary_button      = "Fundamente"
-    secondary_button_url  = "portfolio"
-
-  [Languages.ro.params.blog]
-    enable    = true
-    title     = "Articole:"
-    subtitle  = "Complexitatea devine clară și practică."
-    more      = "VEZI MAI MULTE ARTICOLE" 
-    viewarticle = "Vezi Articolul"  
-
-  [Languages.ro.params.portfolio]
-    enable    = true
-    title     = "Carti pentru copii:"
-    subtitle  = "Cream experiențe și muncim pentru strălucirea din ochii copiilor."
-    more      = "VEZI MAI MULTE CARTI"
-    amazonbutton = "Cumpara pe Amazon"
-    viewbook = "Vezi Cartea"
-
-[Languages.ro.params.call_to_action]
-    enable              = true
-    background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "Creștem Împreună"
-    primary_button      = "Merg la Blog"
-    primary_button_url  = "/ro/blog"
-    secondary_button    = "Cărți pentru Copii"
-    secondary_button_url = "/ro/portfolio"
-    
 
     
   
@@ -216,46 +153,9 @@ languageName = "Română"
       # Footer Service
       [Languages.en.params.footer.service]
         title       = "What it's about here:"
-        description = "Happiness, positive thinking, labels, clichés, mistakes, anxiety, limiting beliefs, communication, balance..."
+        description = "Photography..."
     
-    [Languages.ro.params.footer]
-  # Footer Contact Info
-      [Languages.ro.params.footer.contactInfo]
-        title   = "Contact Info"
-        address = "France, <br>Nice 06"
-        phone   = ""
-        email   = "tanyminds@gmail.com"
-         # Footer Sitemap
-        [Languages.ro.params.footer.sitemap]
-          title   = "Harta Site"
-          [[Languages.ro.params.footer.sitemap.link]]
-            name = "Despre"
-            url  = "/ro/about"
-          [[Languages.ro.params.footer.sitemap.link]]
-            name = "Carti pentru Copii"
-            url  = "/ro/portfolio"
-          [[Languages.ro.params.footer.sitemap.link]]
-            name = "Blog"
-            url  = "/ro/blog"
-  
-    # Footer Social Media
-      [Languages.ro.params.footer.social]
-        title   = "Social Media"
-        [[Languages.ro.params.footer.social.link]]
-          name = "Youtube"
-          url  = "#"
-        
-        [[Languages.ro.params.footer.social.link]]
-          name = "Facebook"
-          url  = "#"
-        [[Languages.ro.params.footer.social.link]]
-          name = "Instagram"
-          url  = "#https://www.instagram.com/21centurykids_com/"
-      # Footer Service
-      [Languages.ro.params.footer.service]
-        title       = "Despre ce discutăm pe aici:"
-        description = "Fericire, gândire pozitivă, etichete, clișee, greșeli, anxietate, convingeri limitative, comunicare, echilibru..."  
-
+ 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "RSS"]
