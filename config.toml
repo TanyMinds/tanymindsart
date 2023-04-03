@@ -61,11 +61,11 @@ languageName = "English"
   [Languages.en.params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S GROW TOGETHER"
-    primary_button      = "Read the Blog"
-    primary_button_url  = "/en/blog"
-    secondary_button    = "View Books for Kids"
-    secondary_button_url = "/en/portfolio"
+    title               = "Let's capture emotions"
+    primary_button      = "About Me"
+    primary_button_url  = "/about"
+    secondary_button    = "Shop on Etsy"
+    secondary_button_url = "https://www.etsy.com/shop/TanyMindsArt"
 
 
 
@@ -101,8 +101,8 @@ languageName = "English"
   logoSize = 500
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "TanyMinds"
-  author = "TanyMinds"
+  description = "TanyMindsArt"
+  author = "TanyMindsArt"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
@@ -129,13 +129,13 @@ languageName = "English"
         title   = "Sitemap"
         [[Languages.en.params.footer.sitemap.link]]
           name = "About"
-          url  = "/en/about"
+          url  = "/about"
         [[Languages.en.params.footer.sitemap.link]]
-          name = "Books for Kids"
-          url  = "/en/portfolio"
+          name = "Shop on Etsy"
+          url  = "https://www.etsy.com/shop/TanyMindsArt"
         [[Languages.en.params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "/en/blog"
+          name = "Home"
+          url  = "/"
         
       # Footer Social Media
       [Languages.en.params.footer.social]
@@ -146,14 +146,14 @@ languageName = "English"
         
         [[Languages.en.params.footer.social.link]]
           name = "Facebook"
-          url  = "#"
+          url  = "https://www.facebook.com/TanyMindsArt"
         [[Languages.en.params.footer.social.link]]
           name = "Instagram"
-          url  = "#https://www.instagram.com/21centurykids_com/"
+          url  = "https://www.instagram.com/tanymindsart_travel_photo/"
       # Footer Service
       [Languages.en.params.footer.service]
         title       = "What it's about here:"
-        description = "Photography..."
+        description = "Photography  <br>Capturing Emotions from Life<br> Colors & Delightfulness"
     
  
 [outputs]
