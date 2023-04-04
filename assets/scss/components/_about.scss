@@ -22,7 +22,7 @@
       margin-bottom: 0px;
     }
     @include mobile {
-      padding: 35px;
+      padding: 10px;
     }
     h1{
       text-align: center;
@@ -32,6 +32,11 @@
       line-height: 30px;
       text-transform: none;
       letter-spacing: 0.5px;
+      @include mobile{
+        margin-top: 50px;
+        font-size: 13px;
+      line-height: 20px;
+      }
     }
   }
   &-description{
@@ -48,6 +53,10 @@
       line-height: 30px;
       font-weight: 300;
       margin-bottom: 0;
+      @include mobile{
+        font-size: 18px;
+        line-height: 24px;  
+      }
     }
     img{
       float: left;
