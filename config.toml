@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
 defaultContentLanguageInSubdir= false
 
+
 [Languages]
 [Languages.en]
 title = "Tany Minds Art"
